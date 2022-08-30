@@ -1,13 +1,120 @@
+
+html, body, #home{
+  height: 100%;
+
+}
+
 body{
   background: url(./imagens/capa.png),
               url(./imagens/ruido.png),
               linear-gradient(50deg, #ff4169, #7c26f8);
   background-attachment: fixed;
-
-            
-
-              
-  
-  
-  
+  font-family: Helvetica, sans-serif;
 }
+
+/* Navegação */
+.nav-transparente{
+  padding: 15px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-nav .nav-link{
+  color: #fff;
+ 
+}
+
+.navbar-nav .nav-link:hover{
+  color: #9bf0e1;
+}
+
+.divisao{
+  width: 1px;
+  margin: 12px 15px;
+  background: #fff;
+}
+
+/* Home */
+
+.capa{
+  text-align: center;
+}
+
+.capa h1{
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+
+/* Buttons */
+
+.btn-custom{
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo{
+  background: #7c26f8;
+}
+
+.btn-roxo:hover{
+  background: #6207e3;
+  color: #fff;
+  border: none;
+}
+
+.btn-branco{
+  border: 2px solid #fff;
+}
+.btn-branco:hover{
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+/* Media-queries */
+
+@media (max-width: 576px) {
+    .btn-custom{
+      margin: 10px 15px;
+    }
+ }
+
+@media (min-width: 577px) and (max-width :767.98px) { 
+  .capa h1{
+    font-size: 3em;
+  }
+  .btn-custom{
+    margin: 10px 15px;
+  }
+ }
+
+@media (min-width: 768px) and (max-width : 992px){ 
+  .capa h1{
+    font-size: 4em;
+  }
+ 
+}
+
+@media (min-width: 993px) and (max-width : 1200px) { 
+  .capa h1{
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1201px) { 
+  .capa h1{
+    font-size: 6em;
+  }
+  
+ }
