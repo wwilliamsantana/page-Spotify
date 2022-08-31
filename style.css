@@ -1,7 +1,7 @@
 
 html, body, #home{
   height: 100%;
-
+  overflow-x: hidden;
 }
 
 body{
@@ -124,6 +124,30 @@ h3{
   letter-spacing: -0.04em;
 }
 
+h4{
+  font-size: 0.8em;
+  color: #919496;
+  text-transform: uppercase;
+}
+
+
+/* footer */
+
+footer{
+  padding: 40px 0 10px 0;
+  background: #000;
+  position: relative;
+}
+
+footer .navbar-nav a{
+  font-size: 0.8em;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+  color: #9bf0e1
+}
 
 
 
@@ -135,6 +159,10 @@ h3{
 @media (max-width: 576px) {
     .btn-custom{
       margin: 10px 15px;
+    }
+
+    footer .navbar-nav{
+      margin-bottom: 10px;
     }
  }
 
