@@ -75,6 +75,54 @@ body{
   border: 2px solid #fff;
 }
 
+/* Estrutura de servicos */
+
+#servicos{
+  background: #fff;
+  padding: 20px 0;
+}
+
+
+#servicos h3, h2{
+  color: #7c26f8;
+}
+
+.albuns{
+  padding: 10px 0;
+}
+
+#recursos{
+  padding: 20px 0;
+  color: #fff;
+}
+
+#recursos h3{
+  color: #9bf0e1;
+}
+
+#recursos h2{
+  color: #fff;
+}
+
+.rotacionar{
+  padding-left: 80px;
+  transform: rotate(30deg);
+}
+
+
+/* Tipografia */
+
+h2{
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3{
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
 
 
 
