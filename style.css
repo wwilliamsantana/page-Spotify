@@ -46,6 +46,10 @@ body{
   font-weight: 900;
 }
 
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+}
+
 /* Buttons */
 
 .btn-custom{
